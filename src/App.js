@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import InfoDisplay from "./components/InfoDisplay";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import 'bootstrap/dist/css/bootstrap.css';
+import './App.css';
+import InfoDisplay from "./components/InfoDisplay";
 
 export const COMPONENT_STATE = {
     PRINTING: 'PRINTING',
